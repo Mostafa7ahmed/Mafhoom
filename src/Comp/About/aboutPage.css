@@ -247,12 +247,15 @@
     .infoBanner p {
 
         font-size: 15px;
+        
         font-weight: 400;
     }
 
     .infoBanner .title {
 
         font-size: 50px;
+        
+    margin-bottom: 25px;
 
     }
 
@@ -268,6 +271,8 @@
     .infoBanner .title {
 
         font-size: 50px;
+        
+    margin-bottom: 25px;
 
     }
 
