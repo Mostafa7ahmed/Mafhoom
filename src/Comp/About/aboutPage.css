@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+    text-decoration: none;
+    font-family: 'Almarai';
+
+
+}
+
+.bannerAll {
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bannerAbout {
+    background-image: url("../../Image/bannerabout.webp") !important;
+
+}
+
+.bannerserivece {
+    background-image: url("../../Image/bannerService.webp") !important;
+}
+
+.bannerSubject {
+    background-image: url("../../Image/bannerSubject.webp") !important;
+
+}
+
+.bannerBlogs {
+    background-image: url("../../Image/bannerBlogs.webp") !important;
+
+}
+
+.bannerContactus {
+    background-image: url("../../Image/bannerContactus.webp") !important;
+
+}
+
+.bannerbersonal {
+    background-image: url("../../Image/person.webp") !important;
+
+}
+
+.bannerCash {
+
+    background-image: url("../../Image/bannerCash.png") !important;
+
+
+
+}
+
+.error {
+
+    background-image: url("../../Image/undraw_donut_love_kau1.png") !important;
+
+
+
+}
+
+.infoBanner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+    background: #000000b5;
+
+}
+
+.infoBanner .title {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Almarai", sans-serif;
+}
+
+.infoBanner p {
+    color: #fff;
+
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Almarai", sans-serif;
+}
+
+.btn {
+    padding: 20px 10px !important;
+    display: block;
+    border: 1px solid #ff9101;
+    color: "#ff9101";
+    border-radius: 10px;
+    display: inline-block !important;
+    width: 15%;
+    text-align: center;
+    transition: .5s all ease-in-out;
+
+}
+
+.see,
+.sub {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 40px;
+    flex-wrap: wrap;
+}
+
+.see .seeLetter,
+.sub .seeLetter {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.see .seeLetter h2,
+.sub .seeLetter h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    width: 100px;
+    font-family: "Almarai", sans-serif;
+
+    position: relative;
+
+}
+
+.see .seeLetter h2::before,
+.sub .seeLetter h2::before {
+    content: "";
+    background-color: #ff9101;
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: -4px;
+}
+
+
+
+
+
+.see .seeLetter p,
+.sub .seeLetter p {
+    color: #000000b5;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: "Almarai", sans-serif;
+
+}
+
+.see .seeImage img,
+.sub .seeImage img {
+    width: 300px;
+    border-radius: 80px 10px 80px;
+}
+
+@media (max-width: 1150px) {
+    .btn {
+        width: 20%;
+        padding: 20px 5px !important;
+
+    }
+
+    .infoBanner p {
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .infoBanner .title {
+
+        font-size: 70px;
+
+    }
+}
+
+@media (max-width: 950px) {
+
+    .see,
+    .sub {
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+
+
+    .see .seeLetter p,
+    .sub .seeLetter p {
+        font-size: 18px;
+        font-weight: 300;
+
+
+    }
+
+    .see .seeImage img,
+    .sub .seeImage img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 650px) {
+    .infoBanner {
+        padding: 0 20px 0 0;
+    }
+
+    .see {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 30px;
+    }
+
+    .sub {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        padding: 0 30px;
+    }
+
+    .see .seeLetter,
+    .sub .seeLetter {
+        width: 100%;
+
+    }
+
+    .btn {
+        width: 30%;
+        padding: 20px 5px !important;
+
+    }
+
+    .infoBanner p {
+
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .infoBanner .title {
+
+        font-size: 50px;
+
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .infoBanner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infoBanner .title {
+
+        font-size: 50px;
+
+    }
+
+    .infoBanner p {
+
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .btn {
+        width: 35%;
+        padding: 20px 0px !important;
+
+    }
+
+    .see .seeLetter p,
+    .sub .seeLetter p {
+        font-size: 15px;
+        font-weight: 300;
+
+
+    }
+}

@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+    text-decoration: none;
+    font-family: 'Almarai';
+
+
+}
+
+/* subject */
+.subject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+
+.subjectHeader {
+    margin-bottom: 50px;
+}
+
+.subjectHeader p {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "Almarai";
+}
+
+.subjectBook {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.subjectBook .Book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+    border: 1px solid #ff9101;
+    transition: .5s all ease-in-out;
+
+}
+
+.subjectBook .Book:hover {
+    transform: translateY(-30px);
+}
+
+.subjectBook .Book h4 {
+    color: #356DFE;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    font-family: "Almarai";
+    font-size: 25px;
+}
+
+.subjectBook .Book span {
+    color: #00000080;
+    font-weight: 600;
+
+}
+
+.outlined-btn {
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+
+    color: #fff;
+    background-color: #FF9001;
+    transition: 0.5s all ease-in-out;
+}
+
+.outlined-btn:hover {
+    background-color: #fff;
+    color: #FF9001;
+    border: 1px solid #FF9001;
+}

@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+    text-decoration: none;
+    font-family: 'Almarai';
+
+
+}
+
+.footer {
+    background: #356DFE;
+    padding: 30px;
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+    justify-content: space-between;
+    /* flex-wrap: wrap !important;
+    flex-direction: column; */
+
+}
+
+.footer .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .right p {
+    font-weight: 600;
+    font-family: "Almarai";
+    padding: 10px 0;
+}
+
+.footer .right p span {
+    color: #ff9101;
+}
+
+.footer .Listcontact p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff9101;
+
+}
+
+.footer .Listcontact ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer .Listcontact ul li {
+    transition: 0.5s all ease-in-out;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer .Listcontact ul li:hover {
+    color: #ff9101;
+    transform: translateX(-4px);
+}
+
+.footer .left p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff9101;
+    margin-bottom: 30px;
+}
+
+.footer .left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .left .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+
+
+.footer .left .social span .icons {
+    text-align: center;
+    font-weight: 600;
+    background-color: #ff9101;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    border-radius: 25px;
+    transition: .5s all ease-in-out;
+}
+
+.footer .left .social span .icons:hover {
+    background-color: #356DFE;
+    border: 1px solid #ff9101;
+
+}
+
+@media (max-width: 650px) {
+    .footer {
+
+        align-items: center;
+        gap: 30px;
+
+        flex-wrap: wrap !important;
+        flex-direction: column;
+
+    }
+}

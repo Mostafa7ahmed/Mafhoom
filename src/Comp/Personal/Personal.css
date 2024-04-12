@@ -1,0 +1,272 @@
+.infoChange {
+    margin: 20px 0;
+}
+
+.infoChange ul {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.infoChange h2 {
+    padding: 20px;
+    background-color: #ffff;
+    box-shadow: 1px 0px 4px #00000072;
+
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    transition: .5s all ease-in-out;
+}
+
+.infoChange h2:hover {
+    transform: scale(1.1);
+}
+
+.infoChange h2 {
+    color: #356DFE;
+}
+
+.activeperson h2 {
+    background-color: #356DFE !important;
+    color: #fff;
+
+}
+
+
+
+.formContactus {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+
+
+.formContactus form {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+
+    border: 1px solid #ff9101;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+
+}
+
+.passwordInputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+
+}
+
+
+
+.falid {
+    color: #000000;
+    padding: 20px 10px !important;
+    border-radius: 10px;
+    width: 80%;
+    /* Adjust according to your layout */
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Adjust border styling */
+    border-radius: 5px;
+    /* Adjust border radius */
+    position: relative;
+    outline: none;
+}
+
+.passwordInputContainer img {
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.submitbtn {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #ff9101;
+    font-weight: 700;
+    border: 1px solid #ff9101;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+.submitbtn:hover {
+    background-color: #ff9101;
+    border: 1px solid #ff9101;
+    color: #ffff;
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.Profile .Profilecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #ff9101;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+    height: 350px;
+}
+
+.Profile .Profilecard .imgconvert {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+.Profile .Profilecard .imgconvert img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+
+.iconsss {
+    position: absolute;
+    bottom: 209px;
+    color: darkgoldenrod;
+    font-size: 20px;
+    z-index: 55555555555;
+    text-align: start;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+.iconsfile {
+    background: transparent;
+    color: cornsilk;
+    padding: 10px;
+    position: absolute;
+    font-size: 16px !important;
+    bottom: -40px;
+    left: 58px;
+    background-color: #050403;
+    border-radius: 50%;
+    z-index: 4444;
+    color: #356DFE !important;
+
+
+
+}
+
+.iconsfile {
+    color: #356DFE !important;
+
+}
+
+.Profile .Profilecard .inputfile {
+    position: absolute;
+    top: 150px;
+    z-index: 44455555554;
+    opacity: 0;
+
+}
+
+
+
+
+@media (max-width: 992px) {
+    .formContactus form {
+        width: 80%;
+    }
+
+    .infoChange h2 {
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .infoChange ul {
+        gap: 30px;
+    }
+
+    .infoChange h2 {
+
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .formContactus form {
+
+
+        width: 90%;
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .formContactus form .falid {
+        width: 90%;
+    }
+
+    .Profile .Profilecard {
+
+        width: 90%;
+
+
+    }
+}
+
+@media (max-width: 450px) {
+    .infoChange h2 {
+
+        width: 250px;
+        font-size: 18px;
+    }
+
+    .formContactus form {
+
+
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .formContactus form .falid {
+        width: 100%;
+    }
+}

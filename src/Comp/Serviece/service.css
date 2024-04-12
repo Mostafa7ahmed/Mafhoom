@@ -1,0 +1,41 @@
+.serivece {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0;
+    padding: 30px;
+}
+
+.serivece .serviceCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: .5px solid #ff9001;
+    padding: 70px;
+    border-radius: 10px;
+    transition: .5s all ease-in-out;
+
+}
+.serivece .serviceCard:hover{
+    transform: translateY(-30px);
+
+}
+.serivece .serviceCard h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "Almarai";
+
+}
+
+.serivece .serviceCard img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Almarai", sans-serif;
+
+}
+
+.Auth {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.formContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 40px;
+}
+
+.Auth .formContact h2 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.Auth .formContact p {
+    color: #ff9101;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Auth .formContact .centerForm {
+    padding: 20px;
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Auth .input-group {
+    width: 350px !important;
+
+}
+
+.Auth .input-group input {
+    width: 100%;
+
+}
+
+.Auth .formContact .centerForm form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.Auth .formContact .centerForm form .falid:focus {
+    border: 1px solid #356DFE;
+}
+
+
+
+.Auth .formContact .centerForm .authbtn {
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px solid #356DFE;
+    font-weight: 600;
+    color: #356DFE;
+
+}
+
+.Auth .formContact .centerForm .activebtn {
+    background-color: #356DFE;
+    color: #fff;
+}
+
+
+
+.Auth .formContact .centerForm label {
+    display: flex;
+
+    justify-content: start;
+    align-items: self-start;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+@media (max-width: 450px) {
+    .Auth .formContact h2 {
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+
+    .Auth .formContact p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .Auth .input-group {
+        width: 300px !important;
+
+    }
+
+    .Auth .formContact .centerForm .authbtn {
+        width: 300px;
+    }
+
+
+}
